@@ -1,0 +1,5 @@
+{
+	  "url": "jdbc:mysql://localhost:3306/cermait",
+    "user": "root",
+		"password": "enter11284"
+}

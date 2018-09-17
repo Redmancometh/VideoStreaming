@@ -1,0 +1,8 @@
+/node_modules
+/target
+/videos
+/src - Copy
+/ffmpeg
+config/server.json
+client/semantic
+localclient/

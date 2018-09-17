@@ -1,0 +1,20 @@
+{
+  "libraries": {
+    "videos": {
+      "name": "Videos",
+      "icon": "film",
+      "directories": [
+        "C:\\Users\\Redmancometh\\Downloads\\Shows\\bobsburgers",
+        "F:\\Users\\Redman\\Desktop\\connect\\Sealab",
+        "F:\\Users\\Redman\\Downloads"
+      ],
+      "recently-viewed": [
+        {
+          "name": "Bob’s Burgers Season 6 Episode 12 – Stand by Gene .mp4",
+          "file-location": "C:\\Users\\Redmancometh\\Downloads\\Shows\\bobsburgers\\Bob\u0027s Burgers Season 6\\Bob’s Burgers Season 6 Episode 12 – Stand by Gene .mp4",
+          "library-name": "Videos"
+        }
+      ]
+    }
+  }
+}

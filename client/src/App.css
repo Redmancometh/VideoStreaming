@@ -1,0 +1,52 @@
+#root {
+	height: 100%;
+}
+
+/**
+Everything under the nav bar including the side bar
+**/
+
+#content {
+	position: relative;
+	overflow: hidden auto;
+	overflow-x: auto;
+	overflow-y: auto;
+	flex-grow: 1;
+	height: 100%;
+}
+
+
+
+
+html body.modal-open div div#search-results-box.fade.in.modal div.modal-dialog {
+
+}
+
+
+#modal-video {
+	margin-bottom: 2%;
+}
+
+
+
+/**
+Everything under the nav bar excluding the side bar
+**/
+
+
+
+.App {
+	height: 100%;
+}
+
+
+
+.App .ui .ui.vertical.sidebar {
+	display: flex;
+	flex-direction: column;
+
+} 
+
+.content-button {
+	margin-left: 50%;
+}

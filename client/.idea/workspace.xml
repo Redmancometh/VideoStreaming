@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7564d283-857c-4c76-89f0-0a2fa521c3c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.settings/org.springframework.ide.eclipse.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accessor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayerControls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VideoArea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerServiceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/VideoStates.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/spring.json" beforeDir="false" afterPath="$PROJECT_DIR$/../config/spring.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/SublimatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/VideoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/config/AdapterlessConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/AdapterlessConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/config/PrimaryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/PrimaryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/config/SpringApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/SpringApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/config/pojo/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/pojo/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/config/pojo/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/pojo/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/controller/MasterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/controller/MasterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/exception/NoProxyAvailableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/exception/NoProxyAvailableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/exception/ObjectNotPresentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/exception/ObjectNotPresentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/exception/VideoExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/exception/VideoExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/pojo/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/pojo/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/util/Defaultable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/util/Defaultable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/cermait/util/SpecialFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/util/SpecialFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/GoogleConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/config/GoogleServiceAcctConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/controller/FFMController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/controller/SpeechController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/controller/StorageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/controller/VideosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/data/VideoDataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/model/VideoData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/model/WordData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/bcurry/videoserver/util/Functional.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="814295555">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="3090" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="3090" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#169#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Topbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LibraryLister.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console.log</find>
+      <find>LIST LIB</find>
+      <find>libraries</find>
+      <find>#555</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/accessors/LibraryAccessor.js" />
+        <option value="$PROJECT_DIR$/src/components/LibraryLister.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Topbar.js" />
+        <option value="$PROJECT_DIR$/src/components/SearchBar.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/LibraryLister.js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7564d283-857c-4c76-89f0-0a2fa521c3c4" name="Default Changelist" comment="" />
+      <created>1537054707345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537054707345</updated>
+      <workItem from="1537054709794" duration="17339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17339000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" x="1920" y="109" width="1360" height="705" id="Project" order="0" type="WINDOWED" visible="true" weight="0.101685986" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/accessors/LibraryAccessor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LibraryLister.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#169#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Topbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

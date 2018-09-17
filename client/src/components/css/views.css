@@ -1,0 +1,249 @@
+html body div#root div.App div.ui.bottom.attached.segment.pushable div.ui.visible.inverted.left.vertical.sidebar.menu {
+	border-top: none;
+	background-color: rgba(0,0,0,.8);
+	width: 15%;
+}
+
+#recentlyViewed: {
+	margin-left: 20px;
+	color: #FFF;
+}
+
+
+#recently-viewed-header {
+	color: #FFF;
+}
+
+/**
+Recently Viewed Content
+**/
+
+#recentlyViewed {
+	height: 100%;
+	width: 100%;
+}
+
+#main-page {
+	padding-top: 2%;
+	padding-left: 5%;
+	height: 100%;
+}
+
+
+.individual-recently-viewed {
+	width: 25%;
+	margin-right: 5%;
+	margin-top: 5%;
+	padding-top: 0%;
+	border: none;
+}
+
+html body div#root div.App div#content div.ui.bottom.attached.segment.pushable div#outer-content div#inner-content div#main-page div#recentlyViewed div.recently-viewed-div div.individual-recently-viewed div.video-react-controls-enabled.video-react-has-started.video-react-paused.video-react-fluid.video-react-user-inactive.video-react-workinghover.video-react.recently-viewed-video {
+	height: 5px;
+}
+
+.recently-viewed-div .individual-recently-viewed .recently-viewed-video {
+
+}
+
+.recently-viewed-div {
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	color: #FFF;
+	height: 100%;
+	width: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+/**
+End Recently Viewed Content
+**/
+
+/**
+Library Browser
+**/
+
+#lib-container {
+
+
+}
+
+#lib-modal {
+	overflow: auto;
+	position: absolute;
+	bottom: 4%;
+	width: 85%;
+	left: 15%;
+	height: 85%;
+	background-color: rgba(0,0,0,.2);
+	padding-top: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	overflow-x: hidden;
+	border-radius: 20px;
+}
+
+#lib-header {
+
+}
+
+#lib-title {
+	font-size: 200%;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+	color: #FFF;
+}
+
+#lib-body {
+	height: 100%;
+}
+
+
+/**
+End library browser
+**/
+
+/**
+Content page common elements
+**/
+
+.content-title {
+	color: #FFF;
+	padding-top: 2%;
+	font-size: 300%;
+	text-align: center;
+}
+
+/**
+Search box stuff
+**/
+
+
+.search-result-text {
+	cursor: pointer;
+	font-size: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid white;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	color: #FFF;
+}
+
+
+#search-results-box {
+	overflow: auto;
+	position: absolute;
+	bottom: 4%;
+	width: 85%;
+	left: 15%;
+	height: 85%;
+	background-color: rgba(0,0,0,.2);
+	padding-top: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	overflow-x: hidden;
+	border-radius: 20px;
+}
+
+#inner-content {
+	height: 100%;
+	overflow: auto;
+}
+
+#outer-content {
+	height: 100%;
+	background-color: rgba(0,0,0,.85);
+	margin-left: 15%;
+}
+
+
+/**
+Topbar stuff
+**/
+
+#search-button {
+	background-color: rgba(255,255,255,.9);
+	margin-right: 25%;
+}
+
+#search-bar {
+	display: inline-block;
+	margin-left: 3%;
+	width: 25%;
+}
+
+#results-footer {
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+#close-results-button {
+}
+
+.modal-footer-button {
+	border: none;
+	font-size: 200%;
+	border-radius: 20px;
+	margin-left: 3%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-bottom: 2%;
+}
+
+#results-title {
+	font-size: 200%;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+	color: #FFF;
+}
+
+
+#results-content {
+
+}
+
+#backbutton {
+}
+
+
+
+.inverted-menu {
+}
+
+.App .ui.inverted.menu {
+		padding-top: 0%;
+		margin-top: 0%;
+		top: 0px;
+		border-radius: 0px;
+		margin-bottom: 0px;
+		border: none;
+		height: 4%;
+		background-color: rgba(0,0,0,.95)
+}
+
+
+.App .ui.left.visible.sidebar {
+	border-top: none;
+}
+
+
+.App .ui.bottom.attached.segment.pushable {
+	border: none !important;
+}
+
+
+
+#topbar-right-button-group {
+	margin-left: 40%;
+}
+
