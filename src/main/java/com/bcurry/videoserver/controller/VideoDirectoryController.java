@@ -43,7 +43,7 @@ public class VideoDirectoryController {
 	@GetMapping(value = "/getVideo", produces = "video/mp4")
 	public StreamingResponseBody getVideo(@RequestParam(value = "library") String libraryName,
 			@RequestParam(value = "fileName") String fileName) {
-		Library lib = librariesConf.getConfig().getLibraries().get(libraryName.toLowerCase());
+		Library lib = librariesConf.getConfig().getLibraries().get(libraryName);
 		Video video = lib.getVideoFiles().get(fileName);
 		if (video != null) {
 			lib.addRecentVideo(video);
