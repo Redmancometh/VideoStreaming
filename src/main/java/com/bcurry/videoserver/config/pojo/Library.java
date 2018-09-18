@@ -23,7 +23,7 @@ public class Library {
 	private String name, icon;
 	private List<String> directories;
 	protected Map<String, Video> videoFiles = new HashMap();
-	protected final String[] acceptedFormat = { "mp4" };
+	protected final String[] acceptedFormat = { "mp4", "avi", "mkv" };
 	private Set<Video> recentlyViewed;
 
 	public void cacheFiles() {
@@ -32,6 +32,10 @@ public class Library {
 			FileUtils.listFiles(new File(dir), acceptedFormat, true).forEach((file) -> videoFiles.put(file.getName(),
 					new Video(file.getName(), file.getAbsolutePath(), this.getName())));
 		});
+	}
+
+	public void registerWatchService() {
+		
 	}
 
 	public void addRecentVideo(Video video) {
