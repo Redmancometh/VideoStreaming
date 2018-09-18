@@ -9,7 +9,6 @@
     "@material-ui/core": "^3.0.3",
     "@material-ui/icons": "^3.0.1",
     "@opuscapita/react-searchbar": "^1.0.6",
-    "material-ui": "^0.20.2",
     "material-ui-search-bar": "^0.4.2",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",

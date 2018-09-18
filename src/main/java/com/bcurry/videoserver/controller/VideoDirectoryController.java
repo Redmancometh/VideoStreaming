@@ -48,7 +48,6 @@ public class VideoDirectoryController {
 		if (video != null) {
 			lib.addRecentVideo(video);
 			librariesConf.writeConfig();
-			librariesConf.init();
 		}
 		librariesConf.getConfig().getLibraries().keySet().forEach((libr) -> System.out.println("LIBR: :" + libr));
 		return new StreamingResponseBody() {

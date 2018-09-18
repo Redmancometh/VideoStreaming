@@ -56,6 +56,7 @@ public class Library {
 	}
 
 	public List<Video> searchForVideos(String searchString) {
+		System.out.println("Search String: " + searchString);
 		List<Video> results = new ArrayList();
 		videoFiles.forEach((name, video) -> {
 			if (name.toLowerCase().contains(searchString)) {
