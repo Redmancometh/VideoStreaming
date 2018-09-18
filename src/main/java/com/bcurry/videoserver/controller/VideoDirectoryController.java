@@ -43,7 +43,11 @@ public class VideoDirectoryController {
 	@GetMapping(value = "/getVideo", produces = "video/mp4")
 	public StreamingResponseBody getVideo(@RequestParam(value = "library") String libraryName,
 			@RequestParam(value = "fileName") String fileName) {
+		System.out.println("librariesConf.getConfig: " + (librariesConf.getConfig() == null));
+		System.out.println("LIBRARIESCONF: " + (librariesConf == null));
+		System.out.println("Searching for library name: " + libraryName);
 		Library lib = librariesConf.getConfig().getLibraries().get(libraryName);
+		System.out.println("Library exists: " + (lib == null));
 		Video video = lib.getVideoFiles().get(fileName);
 		if (video != null) {
 			lib.addRecentVideo(video);
