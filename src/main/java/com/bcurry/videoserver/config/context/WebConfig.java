@@ -1,4 +1,4 @@
-package com.bcurry.videoserver.config;
+package com.bcurry.videoserver.config.context;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

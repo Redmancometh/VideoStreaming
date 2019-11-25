@@ -52,7 +52,7 @@ export default class ResultBrowser extends React.Component {
 			<div>
 				<Modal tabIndex="1" id="search-results-box" show={this.state.showModal} onClose={this.close}>
 					<Modal.Header id="results-title">{header}</Modal.Header>
-					{hasVideo ? (<ReactPlayer id="modal-video" controls="true" volume=".5" width="100%" height="100%" url={this.state.videoUrl} playing />) : (
+					{hasVideo ? (<ReactPlayer id="modal-video" controls="true" width="100%" height="100%" url={this.state.videoUrl} playing />) : (
 						<Modal.Body id="results-content" className="results-body">
 							{this.results.map((item) => {
 								return (

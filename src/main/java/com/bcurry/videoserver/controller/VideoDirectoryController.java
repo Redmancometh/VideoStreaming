@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
+import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ import com.bcurry.videoserver.config.ConfigManager;
 import com.bcurry.videoserver.config.pojo.Library;
 import com.bcurry.videoserver.config.pojo.LibraryConfig;
 import com.bcurry.videoserver.pojo.Video;
+import com.bcurry.videoserver.util.AutoClosableAsyncContext;
 
 /**
  * 
@@ -40,27 +42,37 @@ public class VideoDirectoryController {
 	 * @param fileName
 	 * @return
 	 */
-	@GetMapping(value = "/getVideo", produces = "video/mp4")
-	public StreamingResponseBody getVideo(@RequestParam(value = "library") String libraryName,
-			@RequestParam(value = "fileName") String fileName) {
+	@GetMapping(value = "/getVideo", produces = { "video/mp4", "video/mkv", "video/avi" })
+	public StreamingResponseBody getVideo(HttpServletRequest request,
+			@RequestParam(value = "library") String libraryName, @RequestParam(value = "fileName") String fileName) {
 		System.out.println("librariesConf.getConfig: " + (librariesConf.getConfig() == null));
+		System.out.println("REQUEST: " + request);
 		System.out.println("LIBRARIESCONF: " + (librariesConf == null));
 		System.out.println("Searching for library name: " + libraryName);
 		Library lib = librariesConf.getConfig().getLibraries().get(libraryName);
 		System.out.println("Library exists: " + (lib == null));
 		Video video = lib.getVideoFiles().get(fileName);
-		if (video != null) {
-			lib.addRecentVideo(video);
-			librariesConf.writeConfig();
-		}
+
+		/*
+		 * if (video != null) { lib.addRecentVideo(video); librariesConf.writeConfig();
+		 * }
+		 */
 		librariesConf.getConfig().getLibraries().keySet().forEach((libr) -> System.out.println("LIBR: :" + libr));
 		return new StreamingResponseBody() {
 			@Override
 			public void writeTo(OutputStream out) throws IOException {
-				try (FileInputStream in = new FileInputStream(video.getFileLocation())) {
-					IOUtils.copy(in, out);
-				} catch (IOException e) {
-					e.printStackTrace();
+				try (AutoClosableAsyncContext async = new AutoClosableAsyncContext(request.getAsyncContext())) {
+					try (FileInputStream in = new FileInputStream(video.getFileLocation())) {
+						IOUtils.copy(in, out);
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				} catch (IllegalStateException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
 			}
 		};

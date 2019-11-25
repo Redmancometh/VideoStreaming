@@ -1,13 +1,7 @@
 import React from 'react';
 import LibraryAccessor from '../accessors/LibraryAccessor'
 //Import my components
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import Badge from '@material-ui/core/Badge';
-import SearchIcon from '@material-ui/icons/Search';
 import PropTypes from 'prop-types';
-import Input from '@material-ui/core/Input';
 import SearchResultBrowser from './SearchResultBrowser'
 //Import my CSS
 
@@ -59,13 +53,13 @@ export default class Topbar extends React.Component {
 	render() {
 		return (
 			<div class="ui inverted menu">
-				<div onClick={()=>this.props.switchContent('main-page')}><a class="active item"><i class="home icon" />Home</a></div>
+				<div onClick={() => this.props.switchContent('main-page')}><a class="active item"><i class="home icon" />Home</a></div>
 				<input onKeyPress={this.enterPressed.bind(this)} onSubmit={this.submitSearch} ref="searchInput" id="search-bar" placeholder="Search libraries for video..."></input>
 				<div class="ui icon buttons">
 					<button onClick={this.submitSearch} id="search-button" class="ui button"><i class="search icon"></i></button>
 				</div>
 				<div id="topbar-right-button-group">
-					<div onClick={()=>this.props.switchContent('settings-page')}><a id="topbar-settings-button" class="active item"><i class="server icon" />Settings</a></div>
+					<div onClick={() => this.props.switchContent('settings-page')}><a id="topbar-settings-button" class="active item"><i class="server icon" />Settings</a></div>
 				</div>
 				<SearchResultBrowser openModal={this.openModal} closeModal={this.closeModal} results={this.state.results} ref="resultBrowser" />
 			</div>

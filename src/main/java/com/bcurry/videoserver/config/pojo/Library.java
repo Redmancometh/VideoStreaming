@@ -31,11 +31,12 @@ public class Library {
 		directories.forEach((dir) -> {
 			FileUtils.listFiles(new File(dir), acceptedFormat, true).forEach((file) -> videoFiles.put(file.getName(),
 					new Video(file.getName(), file.getAbsolutePath(), this.getName())));
+			FileUtils.listFiles(new File(dir), acceptedFormat, true).forEach((file) -> System.out.println(file));
 		});
 	}
 
 	public void registerWatchService() {
-		
+
 	}
 
 	public void addRecentVideo(Video video) {

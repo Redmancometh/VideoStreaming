@@ -1,4 +1,4 @@
-package com.bcurry.videoserver.config;
+package com.bcurry.videoserver.config.context;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -10,6 +10,8 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
+import com.bcurry.videoserver.config.AdapterlessConfigManager;
+import com.bcurry.videoserver.config.ConfigManager;
 import com.bcurry.videoserver.config.pojo.DBConfig;
 import com.bcurry.videoserver.config.pojo.LibraryConfig;
 import com.bcurry.videoserver.config.pojo.ServerConfig;

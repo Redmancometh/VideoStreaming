@@ -32,9 +32,9 @@ public class VideoServer {
 	public static ScheduledExecutorService main = Executors.newSingleThreadScheduledExecutor();
 
 	public static void main(String[] args) {
-		System.out.println("I excluded the autoconfiguration");
 		main.execute(() -> {
-			//changed some code
+			System.out.println("MAIN");
+			// changed some code
 			cfgMon.init();
 			SpringConfig cfg = cfgMon.getConfig();
 			SpringApplication application = new SpringApplication(VideoServer.class);
