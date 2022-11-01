@@ -11,7 +11,7 @@
     "react-player": "^1.6.4",
     "react-scripts": "1.1.5",
     "react-sidebar": "^3.0.2",
-    "semantic-ui": "^2.4.0",
+    "semantic-ui": "^2.5.0",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5",
     "video-react": "^0.13.0"
